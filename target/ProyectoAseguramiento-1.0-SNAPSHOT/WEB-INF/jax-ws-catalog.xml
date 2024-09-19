@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://www.banguat.gob.gt/variables/ws/TipoCambio.asmx?wsdl" uri="wsdl/www.banguat.gob.gt/variables/ws/TipoCambio.asmx.wsdl"/>
+    <system systemId="https://banguat.gob.gt/variables/ws/TipoCambio.asmx" uri="wsdl/banguat.gob.gt/variables/ws/TipoCambio.asmx"/>
+    <system systemId="https://banguat.gob.gt/variables/ws/TipoCambio.asmx?wsdl" uri="wsdl/banguat.gob.gt/variables/ws/TipoCambio.asmx.wsdl"/>
+    <system systemId="https://banguat.gob.gt/variables/ws/TipoCambio.asmx?WSDL" uri="wsdl/banguat.gob.gt/variables/ws/TipoCambio.asmx.wsdl"/>
+</catalog>
