@@ -18,7 +18,7 @@ public class Clientes {
 
     public Clientes(int idCliente, String NIT, String nombre, String apellido, String telefono, String direccion) {
         this.idCliente = idCliente;
-        this.nit = nit;
+        this.nit = NIT;
         this.nombre = nombre;
         this.apellido = apellido;
         this.telefono = telefono;

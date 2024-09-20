@@ -11,6 +11,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import com.microsoft.sqlserver.jdbc.SQLServerDriver;
 
 public class Conexion {
 
@@ -22,6 +23,14 @@ public class Conexion {
     static String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
     static Connection con = null;
     static private boolean respuesta = false;
+    
+    public Conexion() {
+        this.con = con;
+    }
+    
+    public Conexion(Connection con) {
+        this.con = con;
+    }
 
     static public Connection open() throws ClassNotFoundException {
         try {
